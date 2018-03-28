@@ -1,5 +1,13 @@
 ﻿/* Navbar ====================================== */
 @import url(materialize.css);
+/*Modifikasi #1: Mengatur agar bisa diakses di iPad */
+*, *:before, *:after {
+  -webkit-user-select: auto !important;
+  -khtml-user-select: auto !important;
+  -moz-user-select: auto !important;
+  -ms-user-select: auto !important;
+  user-select: auto !important;
+}
 .navbar {
   font-family: "Roboto", sans-serif;
   -webkit-border-radius: 0;
